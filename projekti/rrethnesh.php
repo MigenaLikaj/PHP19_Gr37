@@ -10,7 +10,7 @@
 	margin-left:70px;
 	margin-right:70px;
 	clear:both;
-	background-image:url("images/bag1.jpg");
+	background-image:url("images/liber.jpg");
 
 }
 #thenie {
