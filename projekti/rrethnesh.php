@@ -42,3 +42,51 @@ pre {
 }
 </style>
 </head>
+<body>
+ <?php include ('header.php'); ?>
+ <div class="section">
+<div id="body">
+<div id="teksti">
+<?php
+echo "<pre style='text-align:center; font-size:20px'>
+	Lexo Online është platformë online për leximin e librave.
+Qëllimi i krijimit të një hapësire të tillë ështe mungesa e materialeve
+të mirëfillta për kulturën shqiptare dhe ndërkombëtare, përkatësisht.
+	Kjo bibliotekë, përveç librave, mundëson edhe leximin e lajmeve të
+fundit për kulturë,shkarkimin e libra shqip dhe anglisht, diskutimin
+e çështjeve në të mirë të publikut.
+Për çdo koment, kritikë, apo propozim, na kontaktoni!</pre>"
+?>
+<br><br><br><br><br>
+</div>
+<div id="thenie" style="float:center;">
+<div id="thenietleft" >
+<pre style="transform: rotate(10deg);">Jo të gjithë lexuesit janë udhëheqës, 
+    por të gjithë liderët janë lexues. (Harry Truman)
+
+</pre>
+<pre style="transform: rotate(10deg);">Librat shërbejnë t’i tregojnë njeriut se këto
+ mendime origjinale të tijat nuk janë assesi aq të reja. (Barack Obama)
+</pre>
+</div>
+<div id="thenieright">
+<pre style="transform: rotate(-10deg);">Leximi është ende mënyra kryesore që unë të mësoj gjëra të reja 
+    dhe të provoj mirëkuptimin tim. (Bill Gates)
+
+
+</pre>
+<pre style="transform: rotate(-10deg);">Miku im më i mirë është një person që do të më
+ japë një libër që nuk e kam lexuar. (Abraham Lincoln)
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div style="clear:both; float:center; text-align:center ;font-size:30px; border:1px solid black; margin-bottom:20px;">
+<a href="Geolocation.html">KLIKO PER TU ORIENTUAR! </a>
+</div>
+
+<?php include ('footer.php'); ?>
+</body>
+</html>
+
