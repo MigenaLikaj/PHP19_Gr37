@@ -136,5 +136,36 @@ Detaje të librit: Botim i ri
 Shtëpia Botuese: DUKAGJINI  
 Fletët: 208</pre>
 </div>
-</div>	
+</div>
+<script>
+function FunksioniI() {
+    alert("Perkthimi i librit nuk eshte i gatshem!");
+}
+<!--web storage-->
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 0;
+        }
+        document.getElementById("result").innerHTML = "Ju keni lexuar " + localStorage.clickcount + " here.";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+
+</script>
+</div>
+</br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
+
+<div id="box">
+			<legend><h3>Porosit njerin nga librat ne dispozicion</h3> </legend>
+			<form method="POST" action="librat.php" name="formaregjistrimit">
+						<label for="emri">Emri: </label><br>
+						<input type="text" id="emri" name="emri" placeholder="Emri juaj.."><br><br>
+						<label for="mbiemri">Mbiemri</label><br>
+						<input type="text" id="mbiemri" name="mbiemri" placeholder="Mbiemri juaj.."><br>
+
+						</br>
 		
