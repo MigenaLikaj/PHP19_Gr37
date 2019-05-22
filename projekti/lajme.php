@@ -22,3 +22,32 @@
     padding: 15px;
     text-align: center;
 }
+#pagenav
+{
+	height:80px;
+    text-align: center;
+	vertical-align: baseline;
+	font-size:20px;
+    float:bottom;
+
+}
+#pagenav ul{
+     background:#DCDCDC;
+     overflow:hidden;
+     padding-left:200px;
+   }
+#pagenav ul li{
+	border-right: 1px solid #bbb;
+    float: left;
+    width: %;
+   }
+#pagenav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+   }
+</style>
+</head>
