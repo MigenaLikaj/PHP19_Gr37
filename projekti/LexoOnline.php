@@ -216,3 +216,62 @@ document.write ('<body style="background-color: #DEE5EE">');
 
     </div>
 </div>
+	
+	<div class="galery">
+   <h3>FOTO GALERIA</h3>
+     <script>
+function clickCounter() {
+  if(typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "Disa foto  ! ";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>
+
+<p><button onclick="clickCounter()" type="button" style="margin-left: 40px;">Kliko!</button></p>
+<div id="result"></div>
+    <div class="box1">
+      <img src="images/d1.jpg">
+      </div>
+    <div class="box1">
+      <img src="images/d2.jpg">
+          </div>
+    <div class="box1">
+      <img src="images/d3.jpg">
+      </div>
+    <div class="box1">
+      <img src="images/d4.jpg">
+      </div>
+    <div class="box1">
+      <img src="images/d8.jpg">
+          </div>
+    <div class="box1">
+      <img src="images/d6.jpg">
+          </div>
+    <div class="box1">  
+      <img src="images/d7.jpg">
+          </div>
+      
+    <div class="box1">
+      <img src="images/d5.jpg">
+    
+      </div>
+    
+      </div>  
+
+      </div> 
+      </div> 
+      </div> 
+      </div> 
+      </div> 
+      </div>  
+      <br><br>
+<?php include ('footer.php'); ?>
+</body>
+</html>
