@@ -12,7 +12,6 @@
 <li><a href="lajme.php" >Lajme</a></li>
 <li><a href="blejliber.php">Blej Liber</a></li>
 <li><a href="lexoliber.php">Lexo Liber</a></li>
-<li style="width:13%;"><a href="http://fjalori.shkenca.org/" target="_blank">Fjalor Shqip-Shqip</a></li>
 <li><a href="game.php">Argetim</a></li>
 </ul>
 </nav>
