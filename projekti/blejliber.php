@@ -168,4 +168,55 @@ function clickCounter() {
 						<input type="text" id="mbiemri" name="mbiemri" placeholder="Mbiemri juaj.."><br>
 
 						</br>
+	  Zgjedh librin qe deshiron te porositesh:</br>
+                        <input type="checkbox" name="Pergjigje" value="Përgjigje të shkurtra për pyetjet madhore"/>Përgjigje të shkurtra për pyetjet madhore</br>
+                        <input type="checkbox" name="PlakuDeti" value="Plaku dhe Deti"/>Plaku dhe Deti</br>
+                        <input type="checkbox" name="Djale" value="Sikur te isha djale "/>Sikur te isha djale</br>
+                        <input type="checkbox" name="DarkaGabuar" value="Darka e Gabuar"/>Darka e Gabuar</br>
+                       
+
+						<input type="submit" name="submit"/><br>
+
+
+            </form>
+</div>
+
+<div>
+<div class="librat" style="float:left;">
+<figure>
+
+<img src="images/lsh.png" alt="Library" usemap="#librat"/>
+<map name="librat">
+  <area shape="rect" coords="1,0,200,300" alt="Libri4" href="libri1.php ">
+  <area shape="rect" coords="200,0,400,600" alt="Libri5" href="libri2.php">
+  <area shape="rect" coords="400,0,600,800" alt="Libri6" href="libri3.php">
+</map>
+<br>
+
+<figcaption><b>LIBRAT ME TE SHITUR SHQIP PER VITIN 2019</b></figcaption>
+
+</figure>
+</div>
+
+<div class="map" style="float:right;">
+<figure>
+
+<img src="images/la.jpg" alt="Library" usemap="#map" width="600px" height="300px"/>
+<map name="map">
+  <area shape="rect" coords="1,0,200,300" alt="Libri1" href="libri4.php">
+  <area shape="rect" coords="200,0,400,600" alt="Libri2" href="libri5.php">
+  <area shape="rect" coords="400,0,600,800" alt="Libri3" href="libri6.php">
+</map>
+<br>
+
+<figcaption><b>LIBRAT ME TE SHITUR ANGLISHT PER VITIN 2019</b></figcaption>
+
+</figure>
+</div>
+</div>
+<?php include ('footer.php'); ?>
+
+</body>
+</html>
+
 		
