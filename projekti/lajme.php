@@ -51,3 +51,37 @@
    }
 </style>
 </head>
+
+<body>
+<?php include ('header.php'); ?>
+<div style="margin-bottom:10px;">
+<div style="margin-left:100px ; margin-right:100px;">
+<div class="gallery">
+  <a target="_blank" href="lajmi1.php"> 
+      <img src="images/lajmi1.png" 
+    alt=" 10 libra motivues – Të paktën një prej tyre duhet të jetë në listën tuaj" 
+     width="600" height="400" > 
+                  <div class="desc">10 libra motivues – Të paktën një prej tyre duhet të jetë në listën tuaj</div>
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lajmi2.php"> 
+      <img src="images/lajmi2.jpg" 
+    alt=" Një libër, një laps, një fëmijë dhe një mësues mund ta ndryshojnë botën" 
+     width="600" height="400">  
+    
+      <div class="desc"> “Një libër, një laps, një fëmijë dhe një mësues mund ta ndryshojnë botën”</div>
+  </a>
+</div>
+
+<div class="gallery" >
+  <a target="_blank" href="lajmi3.php"> 
+      <img src="images/lajmi3.jpg" 
+    alt=" Librat qe zhvillojne inteligjencen dhe forcojne memorien" 
+     width="600" height="400" >     
+<div class="desc">Librat qe zhvillojne inteligjencen dhe forcojne memorien</div>
+  </a>
+</div>
+	
+	
