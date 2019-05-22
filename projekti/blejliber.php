@@ -61,3 +61,80 @@ p.dotted{outline-style: dotted;}
 	<p><button onclick="clickCounter()" type="button" href="lajme.html">Lexo!</button></p>
 	<button onclick="loadPershkrimi()">Pershkrimi!</button>
 	<div id="content"> </div>
+		
+	<script>
+function loadPershkrimi() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("content").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "text.txt", true);
+  xhttp.send();
+}
+</script>
+<div id="result"></div>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</div>
+</div>
+
+<div id="libri2">
+<div style="float:left;">
+ <figure>
+    <img src="images/libri2.jpg" width="175px" height="254px">
+    <figcaption> Plaku dhe Deti</figcaption>
+	</figure>
+</div>
+	<div style="float:right;"><pre>
+Libri: Plaku dhe Deti
+Gjinia: Roman
+Cmimi: 6 euro
+Autori: Ernest Hemingway
+Detaje të librit: Botim i vjeter
+Shtëpia Botuese: Kokona
+Fletët: 88</pre>
+	</div>
+	<br>
+</div>
+
+
+
+<div id="libri3">
+<div style="float:left; ">
+<figure>
+    <img src="images/libri3.jpg" width="175px" height="254px">
+    <figcaption>Sikur te isha djale</figcaption>
+	</figure>
+</div>
+<div style="float:right;">
+<pre>
+Libri: Sikur te isha djale
+Gjinia: Roman
+Cmimi: 8 euro
+Autori: Haki Stermilli
+Detaje të librit: Botim i ri
+Shtëpia Botuese: UEGEN  
+Fletët: 192</pre>
+</div>
+</div>
+<div id="libri4">
+<div style="float:left; ">
+<figure>
+    <img src="images/libri4.jpg" width="175px" height="254px">
+    <figcaption>Darka e Gabuar</figcaption>
+	</figure>
+</div>
+<div style="float:left;">
+<pre>
+Libri: Darka e Gabuar
+Gjinia: Roman
+Cmimi: 10 euro
+Autori: Ismail Kadare
+Detaje të librit: Botim i ri
+Shtëpia Botuese: DUKAGJINI  
+Fletët: 208</pre>
+</div>
+</div>	
+		
