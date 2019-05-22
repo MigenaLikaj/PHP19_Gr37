@@ -83,5 +83,51 @@
 <div class="desc">Librat qe zhvillojne inteligjencen dhe forcojne memorien</div>
   </a>
 </div>
+<div class="gallery" style="clear:both;">
+  <a target="_blank" href="lajmi4.php"> 
+      <img src="images/lajmi4.jpg" 
+    alt=" Shkenca është e pamjaftueshme për ta njohur të vërtetën" 
+     width="600" height="400" >   
+                  <div class="desc">Shkenca është e pamjaftueshme për ta njohur të vërtetën</div>
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lajmi5.php"> 
+      <img src="images/lajmi5.jpg" 
+                  alt="Rreth librarise se re Buzuku ne albi mall" 
+                   width="600" height="400" > 
+                    <div class="desc">Rreth librarise se re "Buzuku" ne Albi <br>Mall</div>
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lajmi6.php"> 
+      <img src="images/lajmi6.jpg" 
+    alt=" Kryeqyteti ka fluksin me te madh te studenteve ,mirepo ata me se paku blejne libra" 
+     width="600" height="400" >  
+                  <div class="desc">Kryeqyteti ka fluksin me te madh te studenteve ,mirepo ata me se paku blejne libra</div>
+  </a>
+</div>
+</div>
+</div>
+ <div style="clear:both; ">
+<div id="pagenav">
+<ul>
+	<li><a title="Page 1" href="lajme.html">1</a> </li>
+	<li><a title="Page 2" href="#" >2</a></li>
+	<li><a title="Page 3" href="#" >3</a></li>
+	<li><a title="Page 4" href="#" >4</a></li>
+	<li><a title="Page 5" href="#" >5</a></li>
+	<li><a title="extend" href="#">...</a> </li>
+	<li><a id="nextpost" rel="next" href="#" > >> </a></li>
+	<li><a id="last" href="#"> Fund >></a></li>
+</ul>
+</div><br>
+    </div>
+<?php include ('footer.php'); ?>
+
+</body>
+</html>
 	
 	
