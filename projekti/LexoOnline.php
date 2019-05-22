@@ -134,3 +134,85 @@ img {vertical-align: middle;}
 
 <title>Lexo Online</title>
 </head>
+<body> 
+<?php include ('header.php'); ?>
+<h1>Lexo Online</h1>
+<div style="border: 1px solid transparent;">
+<div id="body">
+<br>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/s1.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/s2.jpg" style="width:100%">
+ </div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/s3.jpg" style="width:100%">
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+var now = new Date();
+var hours = now.getHours();
+document.bgColor="#CC9900";
+
+	
+if (hours < 8){
+document.write ('<body style="background-color: #EAEDF1">');
+}
+else if (hours>8){
+document.write ('<body style="background-color: #FFFFFF">');
+}
+else {
+document.write ('<body style="background-color: #DEE5EE">');
+}
+</script>
+
+<div id="teksti" >
+<h1 id="miresevini">Miresevini ne Lexo Online</h1>
+<br>
+    <div style="text-align: justify-all;  margin-left:200px;width:800px; float:center; word-wrap: nowrap;">
+    <p style="line-height: 150%; font-size:20px;   float:center; font-family: Saira, sans-serif;
+">E-learning është perdorimi i teknologjisë për të mundesuar njerëzve për të mësuar ne çdo kohë dhe kudo. E-Learning është një formë elektronike e mësimit që bazohet në një teknologji të avancuar.<br> E-Learning të mundëson të mësoni në klasë, në grup, dhe kudo që ka pajisje komjuterike të konfiguruar. Magjia e e-Learning qëndron në faktin se software i ri të lejon krijimin e një ambienti efektiv të mësimit.<br>E rëndësishme është të ceket fakti se e-Learning së pari ka funksionuar në SHBA, prej së cilës kanë arritur të punojnë edhe shumë shtete te tjera. <br>Thënë me ndryshe E-learning është një qasje e re e cila përmban në vete të mësuarit në njërën anë dhe teknologjinë informative dhe kompjuterët në anën tjetër. Është shtrirje e të mësuarit dhe internetit në një vend.</p>
+<br><br>
+
+    </div>
+</div>
