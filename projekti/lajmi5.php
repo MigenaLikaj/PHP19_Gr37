@@ -22,3 +22,18 @@
 	<p style="text-align:justify; margin-left:100px; margin-right:100px; font-size:18px; font-family:Times New Roman;">
 		<img style="position:center;" src="images\lajmi5.jpg" alt="Rreth librarise se re Buzuku ne albi mall">
 	<br><br><br>
+		
+<?php
+$myfile = fopen("lajmi5.txt", "r") or die("Unable to open file!");
+while(!feof($myfile)) {
+  echo utf8_encode(fgets($myfile)) . "<br>";
+}
+fclose($myfile);
+?>
+
+	</p>
+	</div>
+	<?php include ('footer.php'); ?>
+
+</body>
+</html>
