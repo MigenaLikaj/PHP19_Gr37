@@ -30,3 +30,10 @@ fclose($myfile);
 ?>
 
 	</div>
+
+	
+<?php include ('footer.php'); ?>
+
+</body>
+</html>
+
