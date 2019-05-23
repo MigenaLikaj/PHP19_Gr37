@@ -19,3 +19,15 @@
 </center>
 <figcaption align="middle"><b>LIBRI I PARE ME I SHITUR</b></figcaption>
 <h1>The girl who drank the moon</h1>
+ <?php
+$myfile = fopen("libri4.txt", "r") or die("Unable to open file!");
+while(!feof($myfile)) {
+  echo utf8_encode(fgets($myfile)) . "<br>";
+}
+fclose($myfile);
+?>
+
+</div>
+<?php include ('footer.php'); ?>
+</body>
+</html>
