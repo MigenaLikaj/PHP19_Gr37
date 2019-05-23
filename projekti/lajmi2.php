@@ -15,3 +15,9 @@
 
 </style>
 </head>
+<body>
+
+<?php include ('header.php'); ?>
+
+<h1 style="text-align:center; font-family:arial;" > “Një libër, një laps, një fëmijë dhe një mësues mund ta ndryshojnë botën”</h1>
+	<div class="lajmi1">
