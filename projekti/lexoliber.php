@@ -24,3 +24,20 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.carousel > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.carousel figure {
+  margin: 0;
+  width: 400px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform-origin: 50% 50% -482.8427124746px;
+          transform-origin: 50% 50% -482.8427124746px;
+}
