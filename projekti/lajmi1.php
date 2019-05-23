@@ -22,14 +22,17 @@
 	<p style="text-align:justify; margin-left:100px; margin-right:100px; font-size:18px; font-family:Times New Roman;">
 		<img style="position: relative" src="images\lajmi1.png" alt="10 libra motivues – Të paktën një prej tyre duhet të jetë në listën tuaj">
 	<br><br><br>	
-
 		
+<?php
+$myfile = fopen("lajmi1.txt", "r") or die("Unable to open file!");
+while(!feof($myfile)) {
+  echo utf8_encode(fgets($myfile)) . "<br>";
+}
+fclose($myfile);
+?>
+	
 		
-		
-		
-		
-		
-		</div>
+</div>
 <?php include ('footer.php'); ?>
 
 </body>
