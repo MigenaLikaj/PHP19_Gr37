@@ -149,3 +149,25 @@ function function1(){
    }
 
 </script>
+<div id="libra">
+<img src="images/TomSawyer.png" width="220" height="277" alt="Hamleti">
+<cite><span style="color:red; font-weight:bold;">
+<a style="text-decoration:none" href="https://www.planetebook.com/free-ebooks/the-adventures-of-tom-sawyer.pdf">The Adventures of Tom Sawyer</a>
+</span></cite> 
+
+<img src="images/WarPeace.png" width="220" height="277" alt="Oliver">
+<cite>
+<span style="color:lightseagreen; font-weight:bold;">
+<a style="text-decoration:none" href="https://www.planetebook.com/free-ebooks/war-and-peace.pdf">War and Peace&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</span>
+</cite> 
+
+<img src="images/Iliad.png" width="220" height="277" alt="harrypotter">
+<cite><span style="color:orange; font-weight:bold;"><a style="text-decoration:none" href="https://www.planetebook.com/free-ebooks/the-iliad.pdf">The Iliad</a></span></cite> 
+</div>
+
+</br> </br> </br> </br> </br>
+<?php include ('footer.php'); ?>
+
+</body>
+</html>
