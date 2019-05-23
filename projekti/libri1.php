@@ -29,4 +29,16 @@ Para tij, Fransuai dhe Helena tregojnë takimin e tyre të parë dhe të shkurt�
  martesën e Helenës me një pronar plak dhe të pasur, vejaninë e saj, pritjen
  dhe ritakimin e tyre. Kur vajza e tyre Koletë martohet me Zhan Dorënin,
  duket sikur është skicuar rruga e një lumturie të qetë. Por, disa muaj më vonë,
- ndodh drama.
+ ndodh drama. Mbytja në lumë e Zhanit do të shkatërrojë qetësinë e rreme të atij mjedisi provincial.
+ Njëra pas tjetrës, sekretet e rënda që bashkojnë, kundër dëshirës së tyre, protagonistët e kësaj 
+ intrige do të shfaqen befas në tregimin e Silvios, deri në zbulimin e fundit dhe turbullues...
+E vendosur në të njëjtin fshat ku Irène Némirovsky do të shkruante romanin Suitë franceze,
+ por e nisur që në vitin 1937, kjo dramë familjare e shkruar si një hetim policor tregon
+ shtrëngatën e rrahjeve të zemrës së mbyllur në vetvete, në një shoqëri tepër të lëmuar në sipërfaqe.
+</p>
+</div>
+<br>
+<?php include ('footer.php'); ?>
+
+</body>
+</html>
