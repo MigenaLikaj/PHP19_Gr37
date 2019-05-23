@@ -31,3 +31,11 @@ while(!feof($myfile)) {
 }
 fclose($myfile);
 ?>
+</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2LmBSVQQd6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	</div>
+<div style="width:800px; margin:0 auto;">
+    <p>Leximi, në krizë. Bie ndjeshëm interesi i të rinjve ndaj librave</p>
+
+</div>
