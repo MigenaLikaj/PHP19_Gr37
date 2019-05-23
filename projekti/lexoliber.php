@@ -110,3 +110,19 @@
 
 </style>
     </head>
+  <body>
+<?php include ('header.php'); ?>
+<div class="carousel">
+  <figure>
+    <img height="300px" src="images/t1.jpg" alt="thenia e pare" id="1">
+    <img height="300px" src="images/t2.jpg" alt="thenia e dyte">
+    <img height="300px" src="images/t3.jpg" alt="thenia e trete">
+    <img height="300px" src="images/t4.jpg" alt="thenia e katert">
+    <img height="300px" src="images/t5.jpg" alt="thenia e peste">
+    <img height="300px" src="images/t6.jpg" alt="thenia e gjashte">
+  </figure>
+  <nav>
+
+		<button id="next">Next</button>
+	</nav>
+</div>
