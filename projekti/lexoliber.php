@@ -126,3 +126,26 @@
 		<button id="next">Next</button>
 	</nav>
 </div>
+<p>
+
+<script>
+
+var array = ["images/t1.jpg","images/t2.jpg","images/t3.jpg","images/t4.jpg","images/t5.jpg","images/t6.jpg"];
+var i = 0;
+
+window.onload = function(){
+    var button = document.getElementById("next");
+    next.onclick = function1;
+
+    }
+
+function function1(){
+  var photo =  document.getElementById("1");
+  var array = ["images/t1.jpg","images/t2.jpg","images/t3.jpg","images/t4.jpg","images/t5.jpg","images/t6.jpg","images/t1.jpg"];
+
+  photo.src = array[i];
+  i++;
+  if (i > 6) { i = 0; }
+   }
+
+</script>
