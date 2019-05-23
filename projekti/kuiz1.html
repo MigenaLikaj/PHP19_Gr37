@@ -92,3 +92,58 @@ button:hover{
       },
       correctAnswer: "b"
     },
+      {
+      question: "Cili eshte libri i pare shqip?",
+      answers: {
+        a: "Meshari - Gjon Buzuku",
+        b: "Histori e Skenderbeut - Marin Barleti",
+        c: "Formula e Pagezimit - Pal Engjelli"
+      },
+      correctAnswer: "a"
+    },
+    
+    {
+      question: "Si quhet autori i Abetares se pare ne gjuhen shqipe? ",
+      answers: {
+        a: "Naim Frasheri",
+        b: "Fan Noli ",
+        c: "Naum Veqilharxhi",
+      },
+      correctAnswer: "c"
+    }
+  ];
+
+  function buildQuiz() {
+   //me i ru vlerat per html 
+    const output = [];
+
+    
+    myQuestions.forEach((currentQuestion, questionNumber) => {
+      
+      const answers = [];   // qetu ruhet lista e pergjigjeve 
+
+     // i shtojna button elemet seciles pergjigje perpara 
+      for (letter in currentQuestion.answers) {
+        
+        answers.push(
+          `<label>
+             <input type="radio" name="question${questionNumber}" value="${letter}">
+              ${letter} :
+              ${currentQuestion.answers[letter]}
+           </label>`
+        );
+      }
+	  //join i shtin krejt pergjigjet me ni string qe shfaqen te divi answers
+      //e shton pytjen edhe pergjigjet n html 
+      output.push(
+        `<div class="slide">
+           <div class="question"> ${currentQuestion.question} </div>
+           <div class="answers"> ${answers.join("")} </div>  
+         </div>`
+      );
+    });
+
+    // krejt listen output e kombinojna me ni string 
+    quizContainer.innerHTML = output.join("");
+  }
+
