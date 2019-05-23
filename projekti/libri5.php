@@ -19,3 +19,14 @@
 </center>
 <figcaption align="middle"><b>LIBRI I DYTE ME I SHITUR</b></figcaption>
 <h1>History of Wolves</h1>
+<p align="middle">Anjeza është një vajze e shkathët, por trazovaçe, që ia bën të vështirë jetën teze Polit.
+Libri mund të porositet nga çdo vend i botës. 
+Transporti në Shqipëri është falas, përsa i përket vendeve të tjera,
+vlera e transportit ndryshon në vartësi të vendit.
+Vlerën e saktë të transportit e mësoni në momentin që mbyllni porosinë.
+</p>
+</div>
+<br>
+<?php include ('footer.php'); ?>
+</body>
+</html>
