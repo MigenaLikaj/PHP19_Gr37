@@ -3,3 +3,11 @@
 <head lang="en">
 <link rel="stylesheet" type="text/css" href="index.css">
 <style>
+  	.lajmi1
+	{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+	}
+
+</style>
