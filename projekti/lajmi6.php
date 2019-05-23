@@ -39,3 +39,8 @@ fclose($myfile);
     <p>Leximi, në krizë. Bie ndjeshëm interesi i të rinjve ndaj librave</p>
 
 </div>
+	
+<?php include ('footer.php'); ?>
+
+</body>
+</html>
