@@ -41,3 +41,11 @@
   -webkit-transform-origin: 50% 50% -482.8427124746px;
           transform-origin: 50% 50% -482.8427124746px;
 }
+    
+   .carousel figure img {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 40px;
+  opacity: 0.9;
+}
