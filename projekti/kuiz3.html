@@ -112,3 +112,64 @@ button:hover{
       correctAnswer: "b"
     }
   ];
+  function buildQuiz() {
+   //me i ru vlerat per html 
+    const output = [];
+
+    
+    myQuestions.forEach((currentQuestion, questionNumber) => {
+      
+      const answers = [];   // qetu ruhet lista e pergjigjeve 
+
+     // i shtojna button elemet seciles pergjigje perpara 
+      for (letter in currentQuestion.answers) {
+        
+        answers.push(
+          `<label>
+             <input type="radio" name="question${questionNumber}" value="${letter}">
+              ${letter} :
+              ${currentQuestion.answers[letter]}
+           </label>`
+        );
+      }
+	  //join i shtin krejt pergjigjet me ni string qe shfaqen te divi answers
+      //e shton pytjen edhe pergjigjet n html 
+      output.push(
+        `<div class="slide">
+           <div class="question"> ${currentQuestion.question} </div>
+           <div class="answers"> ${answers.join("")} </div>  
+         </div>`
+      );
+    });
+
+    // krejt listen output e kombinojna me ni string 
+    quizContainer.innerHTML = output.join("");
+  }
+
+			function showResults() {
+    // i merr krejt pergjigjet e sakta 
+    const answerContainers = quizContainer.querySelectorAll(".answers");
+
+    // me kshyr qfar pergjigje jep perdoruesi 
+    let numCorrect = 0;
+
+    // per secilen pytje kontrollon nese pergjijga e sakt e bon me t gjelber krejt pytjen nese jo(gabim ose pa plotsu)  me t kuqe 
+    myQuestions.forEach((currentQuestion, questionNumber) => {
+      // gjen pergjigjen qe e ka jap perdorusi 
+      const answerContainer = answerContainers[questionNumber];
+      const selector = `input[name=question${questionNumber}]:checked`;
+      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+    
+      if (userAnswer === currentQuestion.correctAnswer) {
+        numCorrect++;
+		answerContainers[questionNumber].style.color = "lightgreen";
+      } 
+	  else {
+        answerContainers[questionNumber].style.color = "red";
+      }
+    });
+
+    // tregon sa pytje prej save jan t sakta 
+    results.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+  }
