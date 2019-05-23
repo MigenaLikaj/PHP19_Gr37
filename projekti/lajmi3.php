@@ -19,3 +19,11 @@
 	}
 
 </style>
+	
+</head>
+<body>
+
+<?php include ('header.php'); ?>
+
+<h1 style="text-align:center; font-family:arial;" > Librat qe zhvillojne inteligjencen dhe forcojne memorien </h1>
+	<div class="lajmi1">
