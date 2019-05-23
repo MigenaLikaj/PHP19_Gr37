@@ -49,3 +49,64 @@
   padding: 0 40px;
   opacity: 0.9;
 }
+    
+.carousel figure img:not(:first-of-type) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform-origin: 50% 50% -482.8427124746px;
+          transform-origin: 50% 50% -482.8427124746px;
+}
+.carousel figure img:nth-child(2) {
+  -webkit-transform: rotateY(0.7853981634rad);
+          transform: rotateY(0.7853981634rad);
+}
+.carousel figure img:nth-child(3) {
+  -webkit-transform: rotateY(1.5707963268rad);
+          transform: rotateY(1.5707963268rad);
+}
+.carousel figure img:nth-child(4) {
+  -webkit-transform: rotateY(2.3561944902rad);
+          transform: rotateY(2.3561944902rad);
+}
+.carousel figure img:nth-child(5) {
+  -webkit-transform: rotateY(3.1415926536rad);
+          transform: rotateY(3.1415926536rad);
+}
+.carousel figure img:nth-child(6) {
+  -webkit-transform: rotateY(3.926990817rad);
+          transform: rotateY(3.926990817rad);
+}
+.carousel figure img:nth-child(7) {
+  -webkit-transform: rotateY(4.7123889804rad);
+          transform: rotateY(4.7123889804rad);
+}
+.carousel figure img:nth-child(8) {
+  -webkit-transform: rotateY(5.4977871438rad);
+          transform: rotateY(5.4977871438rad);
+}
+.carousel nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0 0;
+}
+.carousel nav button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #333;
+  background: none;
+  border: 1px solid;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+
+
+</style>
+    </head>
