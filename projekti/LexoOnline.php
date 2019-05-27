@@ -211,7 +211,14 @@ document.write ('<body style="background-color: #DEE5EE">');
 <br>
     <div style="text-align: justify-all;  margin-left:200px;width:800px; float:center; word-wrap: nowrap;">
     <p style="line-height: 150%; font-size:20px;   float:center; font-family: Saira, sans-serif;
-">E-learning është perdorimi i teknologjisë për të mundesuar njerëzve për të mësuar ne çdo kohë dhe kudo. E-Learning është një formë elektronike e mësimit që bazohet në një teknologji të avancuar.<br> E-Learning të mundëson të mësoni në klasë, në grup, dhe kudo që ka pajisje komjuterike të konfiguruar. Magjia e e-Learning qëndron në faktin se software i ri të lejon krijimin e një ambienti efektiv të mësimit.<br>E rëndësishme është të ceket fakti se e-Learning së pari ka funksionuar në SHBA, prej së cilës kanë arritur të punojnë edhe shumë shtete te tjera. <br>Thënë me ndryshe E-learning është një qasje e re e cila përmban në vete të mësuarit në njërën anë dhe teknologjinë informative dhe kompjuterët në anën tjetër. Është shtrirje e të mësuarit dhe internetit në një vend.</p>
+">Lexo Online është perdorimi i teknologjisë për të mundesuar njerëzve për të mësuar ne çdo kohë dhe kudo. 
+	    Lexo Online është një formë elektronike e mësimit që bazohet në një teknologji të avancuar.<br>
+	    Lexo Online të mundëson të mësoni në klasë, në grup, dhe kudo që ka pajisje komjuterike të konfiguruar. 
+	    Magjia e Lexo Online qëndron në faktin se software i ri të lejon krijimin e një ambienti efektiv të mësimit.<br>
+	    E rëndësishme është të ceket fakti se Lexo Online së pari ka funksionuar në SHBA, prej së cilës kanë arritur të punojnë
+	    edhe shumë shtete te tjera. <br>Thënë me ndryshe Lexo Online është një qasje e re e cila përmban 
+	    në vete të mësuarit në njërën anë dhe teknologjinë informative dhe kompjuterët në anën tjetër. 
+	    Është shtrirje e të mësuarit dhe internetit në një vend.</p>
 <br><br>
 
     </div>
