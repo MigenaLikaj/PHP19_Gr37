@@ -56,3 +56,23 @@ if (isset($_POST['login_user'])) {
   	$results = mysqli_query($db, $query);
 
     $user=mysqli_fetch_array($results);
+	  
+	  if($user){
+    if(!empty($_POST["remember"])) {
+  setcookie ("username",$_POST["username"],time()+ 365*10*24*60*60);
+  setcookie ("password",$_POST["password"],time()+ 365*10*24*60*60);
+  echo "Cookies Set Successfuly";
+} else {
+  setcookie("username","");
+  setcookie("password","");
+  echo "Cookies Not Set";
+}
+      header('location: LexoOnline.php');
+
+  }
+  else{
+    $message="Invalid Login";
+  }
+  }
+}
+?>
