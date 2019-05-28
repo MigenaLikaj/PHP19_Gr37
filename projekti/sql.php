@@ -7,3 +7,14 @@ $sql = "CREATE TABLE `users` (
 )";
 $host='localhost';
 $username='root';
+$password='';
+$dbase='registration';
+$conn = mysqli_connect($host,$username,$password,$dbase);
+if($conn){
+    echo "Successfully connected to server";
+}
+else{
+    echo "Failed";
+}
+print(mysqli_query($conn,$sql));
+?>
