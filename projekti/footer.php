@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
 <footer style="clear:both;">  
   <div id="footer">
  <div  id="contacts">
