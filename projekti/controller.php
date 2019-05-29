@@ -19,3 +19,28 @@ class Post{
 		$stmt->execute();
 		return $stmt->fetchAll($fetchType);
 	}
+public function readPostById($id, $fetchType = PDO::FETCH_OBJ){
+		global $pdo;
+		$stmt = $pdo->prepare('SELECT * FROM user_comment WHERE id=?');
+		
+		$stmt->execute([$id]);
+		return $stmt->fetch($fetchType);
+	}
+	//UPDATE POST
+	public function updatePost($id,$email,$content){
+global $pdo;
+$stmt = $pdo->prepare('UPDATE user_comment SET email=?, content=? WHERE id=?');
+$stmt->execute([
+$email,
+$content,
+$id
+]);
+	}
+public function deletePost($id){
+	global $pdo;
+	$stmt = $pdo->prepare("DELETE FROM user_comment WHERE id=?");
+	$stmt->execute([$id]);
+}
+
+}
+?>
