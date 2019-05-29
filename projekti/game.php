@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head manifest="demo_html.appcache">
 <head lang="en">
