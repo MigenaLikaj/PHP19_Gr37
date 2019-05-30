@@ -60,3 +60,17 @@ include('includes/connection.php');
 if(isset($_POST['login'])){
 $user = $_POST['user'];       
 $pass = md5($_POST['password']);
+$login_query = "select * from admins where user_name='$user' AND user_pass='$pass'";
+$run_login = mysqli_query($con,$login_query);
+    session_start(); 
+    if(mysqli_num_rows( $run_login ) > 0 ){
+        $_SESSION['user_name'] = $user; 
+        echo "<script>window.open('index.php','_self');</script>"; 
+ 
+    }
+    else{
+        echo "<script>alert('Username Or Password is incorrect !!!');</script>";
+    }
+}        
+        
+?>   
