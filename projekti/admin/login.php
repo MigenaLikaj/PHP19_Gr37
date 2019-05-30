@@ -48,3 +48,15 @@ include('includes/connection.php');
                                         <input type="submit" value="Log In" class="btn btn-primary pull-right" name="login"/>                         
                                     </div>
                                 </div>
+                                <p style="color:#fff;font-size:16px;">New Here? Sign Up <strong><a href="signup.php">Here</a></strong> </p>
+                            </form>
+                            <p style="margin:20px 0;color:#222;text-align:center;font-size:18px;">Go back to the <strong><a href="index.php">Site</a></strong> </p>   
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+<?php 
+if(isset($_POST['login'])){
+$user = $_POST['user'];       
+$pass = md5($_POST['password']);
