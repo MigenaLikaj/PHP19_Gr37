@@ -31,3 +31,11 @@
                         </p>
                         <p> 
                             <input type="submit" value="Publish" name="publish_book">
+                            </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?php
