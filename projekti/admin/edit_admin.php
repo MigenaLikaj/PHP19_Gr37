@@ -48,3 +48,19 @@
                     </form>
                     <?php endwhile;?>
                     <?php };?>
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php 
+if(isset($_POST['update_user'])){  
+$user_ufname = $_POST['user_fname']; 
+$user_id = $_POST['hidden_id']; 
+$user_ulname = $_POST['user_lname']; 
+$user_uname = $_POST['user_name']; 
+$user_uemail = $_POST['user_email']; 
+$user_uadmin = $_POST['admin'];
+    $update_user = "UPDATE instructors SET user_fname='".$user_ufname."',user_lname='".$user_ulname."',user_name='".$user_uname."',user_email='".$user_uemail."',admin='".$user_uadmin."' WHERE user_id='".$user_id."'";
