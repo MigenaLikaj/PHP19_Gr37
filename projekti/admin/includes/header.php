@@ -28,3 +28,35 @@ if(!isset($_SESSION['user_name'])){
         <script>tinymce.init({ selector:'textarea' });</script> 
         <style>
             h1 {
+          font-family: "Avenir Next", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    color: #7D7C7D;
+    padding-top: 5px;
+    
+    text-shadow: 3px 2px pink;
+}
+        </style>       
+    </head>
+    <body>
+    <header class="header_area">
+    <div class="container">
+        <div class="row top_header">
+            <div class="col-md-8 col-sm-8 col-xs-12">
+                <ul class="social_top">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="loginreg">
+                    <ul>
+                       
+                        <li>Hello <strong> <?php echo $_SESSION['user_name'];?> </strong></li> 
+                        <li><a href="logout.php">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
