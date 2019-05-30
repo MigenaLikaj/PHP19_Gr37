@@ -42,3 +42,15 @@ include('includes/connection.php');
                                     <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
                                     <input id="uemail" type="email" class="form-control" name="uemail" placeholder="User Email">                                        
                                 </div>     
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                    <input id="user" type="text" class="form-control" name="user" placeholder="User">                                        
+                                </div> 
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-file-text-o"></i></span>
+                                    <textarea name="about" id="about" rows="10" style="width:100%;border:0;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:10px" placeholder="About Instructor"></textarea>
+                                </div>
