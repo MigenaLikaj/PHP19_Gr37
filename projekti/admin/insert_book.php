@@ -19,3 +19,15 @@
                             <label for="category">Book Category</label>
                             <select name="category" id="select_cat">
                             <option value="Select a category">Select a category</option>
+                                <option value="roman">Roman</option>
+                             <option value="poezi">Poezi</option>
+                             <option value="tregime">Tregime dhe Novela</option>
+                             <option value="proze">Proze</option>
+                              </select>
+                        </p> 
+                         <p>
+                            <label for="price">Book Price</label>
+                            <input type="text" placeholder="Price " name="price">
+                        </p>
+                        <p> 
+                            <input type="submit" value="Publish" name="publish_book">
