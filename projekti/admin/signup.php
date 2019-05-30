@@ -20,3 +20,25 @@ include('includes/connection.php');
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>        
     </head>
     <body>
+    <section class="login_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo">
+                            <img src="logo3.png" alt="LexoOnline">
+                        </div>
+                        <div class="login_form"> 
+                           <h2 style="text-align:center;margin:20px 0;">Become An Admin</h2>
+                            <form name="form" id="form" class="form-horizontal" enctype="multipart/form-data" method="POST"> 
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-leaf"></i></span>
+                                    <input id="fname" type="text" class="form-control" name="fname" placeholder="First Name">                                        
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-fire"></i></span>
+                                    <input id="lname" type="text" class="form-control" name="lname" placeholder="Last Name">                                        
+                                </div> 
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                    <input id="uemail" type="email" class="form-control" name="uemail" placeholder="User Email">                                        
+                                </div>     
