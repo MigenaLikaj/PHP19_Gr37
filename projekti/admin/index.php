@@ -61,3 +61,21 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="col-md-4 col-md-6">
+                            <div class="panel panel-orange">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-group fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <?php
+                                            $admins = "SELECT * FROM `admins`";
+                                            $run_admins = mysqli_query($con,$admins);  
+                                            $num_rows_admins = mysqli_num_rows($run_admins);   
+                                            ?>
+                                            <div class="huge"><?php echo $num_rows_admins;?></div>
+                                            <div>Admins</div>
+                                        </div>
+                                    </div>
+                                </div>
