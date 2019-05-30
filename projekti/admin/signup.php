@@ -54,3 +54,18 @@ include('includes/connection.php');
                                     <span class="input-group-addon"><i class="fa fa-file-text-o"></i></span>
                                     <textarea name="about" id="about" rows="10" style="width:100%;border:0;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:10px" placeholder="About Instructor"></textarea>
                                 </div>
+                                 <div class="form-group">
+                                    <!-- Button -->
+                                    <div class="col-sm-12 controls">
+                                        <input type="submit" value="Submit" class="btn btn-primary pull-right" name="register"/>                         
+                                    </div>
+                                </div>
+                                <p style="color:#fff;font-size:16px;">Already an Admin? Login <strong><a href="login.php">Here</a></strong> </p>
+                            </form>
+                            <p style="margin:20px 0;color:#222;text-align:center;font-size:18px;">Go back to the <strong><a href="index.php">HomePage</a></strong> </p>      
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
