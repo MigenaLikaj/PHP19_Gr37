@@ -90,4 +90,20 @@ $pass = md5($_POST['password']);
         echo "<script>alert('$uemail Already Exist!!');</script>"; 
  
     }
+        elseif(mysqli_num_rows( $run_username ) > 0 ){ 
+        echo "<script>alert('Username $user Already Exist!!');</script>"; 
+ 
+    }else{
+    $insert_user = "insert into admins (user_fname,user_lname,user_email,user_name,user_pass,about) values('$fname','$lname','$uemail','$user','$pass','$about')";
+$run_reg = mysqli_query($con,$insert_user); 
+        if($run_reg){
+            echo "<script>alert('Registration Successfully!!Please Login!!')</script>";
+            echo "<script>window.open('login.php','_self');</script>"; 
+        }
+    }
+    }
+    
+}        
+        
+?>
 
