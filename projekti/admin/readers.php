@@ -17,3 +17,23 @@
                         <tbody>
                         <?php 
                         $user = "select * from users";
+                            $run_user = mysqli_query($con,$user); 
+                        while($user_row = mysqli_fetch_array($run_user)):
+                        $user_id = $user_row ['id'];   
+                        $uemail = $user_row ['email'];   
+                        $uname = $user_row ['username']; 
+                        ?>             
+                          <tr>
+                            <td><?php echo $user_id;?></td>
+                            <td><?php echo $uemail;?></td> 
+                            <td><?php echo $uname;?></td> 
+                          </tr>
+                        <?php endwhile;?>   
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <?php include("includes/footer.php");?>
