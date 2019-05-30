@@ -57,37 +57,3 @@
 
 <?php include("includes/footer.php");?>
 
-$run_cat = mysqli_query($con,$cat); 
-                        while($cat_row = mysqli_fetch_array($run_cat)):
-                        $id = $cat_row ['id'];   
-                        $name = $cat_row ['name']; 
-                        $category = $cat_row ['category']; 
-                        $price = $cat_row ['price'];   
-  
-                        $description = substr($cat_row ['description'],0,300);
- 
-                        ?>             
-                          <tr>
-                            <td><?php echo $id;?></td>
-                            <td><?php echo $name;?></td>
-                            <td><?php echo $description;?></td>
-                            <td><?php echo $category;?></td>
-                            <td><?php echo $price;?></td>
-
-
-                            <td><a href="delete_book.php?delete_book=<?php echo $id;?>">Delete</a></td>
-                          </tr>
-                        <?php endwhile;?>   
-                        </tbody>
-                      </table>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
- 
-
-<?php include("includes/footer.php");?>
-
-
-
