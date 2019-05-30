@@ -60,3 +60,21 @@ if(!isset($_SESSION['user_name'])){
                 </div>
             </div>
         </div>
+        <div class="row logo_area">
+            <div class="col-md-6 col-sm-6- col-xs-12">
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="loginreg">
+                    <ul>
+                       
+                        <li><a href="index.php">LexoOnline</a></li>
+                    </ul>
+                </div>
+            </div>
+                    
+                
+            </div>
+           
+            </div>
+        </div> 
+    </div>
+</header>
