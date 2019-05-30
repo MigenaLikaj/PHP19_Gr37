@@ -8,3 +8,14 @@
                    <h2>Insert New Book</h2>
                     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data" method="post">
                         <p>
+                            <label for="name">Book Title</label>
+                            <input type="text" placeholder="Book title" name="name" >
+                        </p>
+                        <p>
+                            <label for="description">Book Content</label>
+                            <textarea name="description" cols="30" rows="10" ></textarea>
+                        </p> 
+                         <p>
+                            <label for="category">Book Category</label>
+                            <select name="category" id="select_cat">
+                            <option value="Select a category">Select a category</option>
