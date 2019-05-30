@@ -109,3 +109,28 @@
                            </div>
                        </div>
                        
+                       <div class="col-md-6 col-sm-12">
+                           <div class="latest_admins admin_latest">
+                               <h3>Admins</h3>
+                               <ul>
+                                <?php 
+                                $user = "select * from admins LIMIT 5";
+                                $run_user = mysqli_query($con,$user); 
+                                while($user_row = mysqli_fetch_array($run_user)):    
+                                $user_name = $user_row ['user_name']; 
+                                $user_email = $user_row ['user_email'];   
+                                ?>
+                                <li><span><?php echo $user_name;?></span> <br>  
+                                 <span><?php echo $user_email;?></span></li>
+                                <?php endwhile;?>
+                                </ul>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<?php include("includes/footer.php");?>
+                       
