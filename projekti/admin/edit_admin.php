@@ -46,8 +46,10 @@
                             <input type="submit" value="Update" name="update_user">
                         </p>
                     </form>
-                    <?php endwhile;?>
-                    <?php };?>
+                    <?php endwhile;
+                    ?>
+                    <?php };
+                    ?>
                     
                     </div>
             </div>
@@ -63,4 +65,15 @@ $user_ulname = $_POST['user_lname'];
 $user_uname = $_POST['user_name']; 
 $user_uemail = $_POST['user_email']; 
 $user_uadmin = $_POST['admin'];
-    $update_user = "UPDATE instructors SET user_fname='".$user_ufname."',user_lname='".$user_ulname."',user_name='".$user_uname."',user_email='".$user_uemail."',admin='".$user_uadmin."' WHERE user_id='".$user_id."'";
+    $update_user = "UPDATE instructors SET user_fname='".$user_ufname."',user_lname='".$user_ulname."',user_name='".$user_uname."'
+    ,user_email='".$user_uemail."',admin='".$user_uadmin."' WHERE user_id='".$user_id."'";
+    
+        $run_update_user = mysqli_query($con,$update_user);  
+        if($run_update_user){
+            echo "<script>alert('Instructor Updated Successfully!!')</script>";
+            echo "<script>window.open('admins.php','_self');</script>"; 
+        }
+    } 
+?> 
+<?php include("includes/footer.php");?>
+
