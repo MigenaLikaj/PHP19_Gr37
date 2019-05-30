@@ -77,4 +77,17 @@ $uemail = $_POST['uemail'];
 $user = mysqli_real_escape_string ($con,$_POST['user']);  
 $about = mysqli_real_escape_string ($con,$_POST['about']);  
 $pass = md5($_POST['password']);
+       if($fname == '' OR $lname == '' OR $uemail == '' OR $user == '' OR $pass == '' OR $about == ''){
+    echo "<script>alert('Please Fill All The Fields')</script>";
+        exit();
+    }
+    else{
+    $email_check = "select * from admins where user_email='$uemail'";
+    $username_check = "select * from admins where user_name='$user'";
+    $run_email = mysqli_query($con,$email_check); 
+    $run_username = mysqli_query($con,$username_check); 
+    if(mysqli_num_rows( $run_email ) > 0 ){ 
+        echo "<script>alert('$uemail Already Exist!!');</script>"; 
+ 
+    }
 
