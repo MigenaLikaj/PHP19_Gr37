@@ -1,4 +1,4 @@
-<?php require 'header.php'; ?>
+<?php require 'header1.php'; ?>
 <?php 
 if (isset($_GET['id'])) {
 	$id = $_GET['id'];
@@ -41,4 +41,4 @@ if (isset($_GET['id'])) {
 </div>
 
 
-<?php require 'footer.php'; ?>
+<?php require 'footer1.php'; ?>
