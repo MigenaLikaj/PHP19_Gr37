@@ -25,7 +25,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a href="view_categories.php">
+                                <a href="books.php">
                                     <div class="panel-footer">
                                         <span class="pull-left">View All</span>
                                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -45,3 +45,19 @@
                                             <?php
                                             $learner = "SELECT * FROM `users`";
                                             $run_learner = mysqli_query($con,$learner);
+                                            $num_rows_learner = mysqli_num_rows($run_learner);   
+                                            ?>
+                                            <div class="huge"><?php echo $num_rows_learner;?></div>
+                                            <div>All Readers</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="readers.php">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">View All</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
