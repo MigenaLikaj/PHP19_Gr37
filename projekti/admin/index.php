@@ -88,4 +88,24 @@
                                 </a>
                             </div>
                         </div>
+                           <hr >                  
+                   <div class="row">
+                       <div class="col-md-6 col-sm-12">
+                           <div class="latest_admin_post admin_latest">
+                               <h3>Latest Books</h3>
+                                <?php 
+                                $post = "select * from books LIMIT 5";
+                                $run_post = mysqli_query($con,$post); 
+                                while($post_row = mysqli_fetch_array($run_post)):
+                                $id = $post_row ['id'];   
+                                $name = $post_row ['name']; 
+                                $category = $post_row ['category']; 
+                                $price = $post_row ['price'];  
+                                $description = substr($post_row ['description'],0,300); 
+                                ?>
+                                <h4 style="margin-top:20px;margin-bottom:5px"><?php echo $name;?></h4>
+                                <p ><?php echo $description;?></p>
+                                <?php endwhile;?>
+                           </div>
+                       </div>
                        
