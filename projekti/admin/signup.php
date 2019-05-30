@@ -68,4 +68,13 @@ include('includes/connection.php');
                 </div>
             </div> 
         </section>
+        
+        <?php 
+if(isset($_POST['register'])){
+$fname = mysqli_real_escape_string ($con,$_POST['fname']);  
+$lname = mysqli_real_escape_string ($con,$_POST['lname']);  
+$uemail = $_POST['uemail'];  
+$user = mysqli_real_escape_string ($con,$_POST['user']);  
+$about = mysqli_real_escape_string ($con,$_POST['about']);  
+$pass = md5($_POST['password']);
 
