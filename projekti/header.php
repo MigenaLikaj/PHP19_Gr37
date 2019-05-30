@@ -12,6 +12,7 @@
 <li><a href="blejliber.php">Blej Liber</a></li>
 <li><a href="lexoliber.php">Lexo Liber</a></li>
 <li><a href="rrethnesh.php">Rreth Nesh</a></li>
+<li><a href="indexx.php">Komente</a></li>
 <li><a href="game.php">Argetim</a></li>
 <li><a href="logout.php" style="color: brown;">Log Out </a></li>
 
