@@ -39,3 +39,17 @@
     </div>
 </section>
 <?php
+/* Insert Query*/
+if(isset($_POST['publish_book'])){
+$name = $_POST['name'];
+$description = mysqli_real_escape_string ($con,$_POST['description']);
+
+$category = $_POST['category'];
+$price = $_POST['price'];
+
+  
+    if($name == '' OR $description == '' OR $category == '' OR $price == ''){
+    echo "<script>alert('Please Fill All The Fields')</script>";
+        exit();
+    }
+    else{
