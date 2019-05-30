@@ -22,3 +22,23 @@ if (isset($_GET['id'])) {
 <div class="from-group">
 		<input type="hidden" name="id" value="<?php echo $edit_post->id ?>">
 	</div>
+	
+	<div class="from-group">
+		<label  for="title">Email</label>
+		<input type="text" name="email" class="form-control" value="<?php echo $edit_post->email ?>" required >
+	</div>
+
+	<div class="form-group mt-2">
+		<p>Content</p>
+		<textarea name="content" required cols="150" rows="10" ><?php echo $edit_post->content; ?></textarea>
+	</div>
+
+	<button name="update" class="btn btn-primary ">Update</button>
+
+</form>
+
+
+</div>
+
+
+<?php require 'footer.php'; ?>
