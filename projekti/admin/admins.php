@@ -25,3 +25,37 @@
                         <tbody>
                         <?php 
                         $user = "select * from admins";
+                             $run_user = mysqli_query($con,$user); 
+                        while($user_row = mysqli_fetch_array($run_user)):
+                        $user_id = $user_row ['user_id'];   
+                        $fname = $user_row ['user_fname']; 
+                        $lname = $user_row ['user_lname']; 
+                        $uemail = $user_row ['user_email'];   
+                        $uname = $user_row ['user_name'];   
+                        $about = $user_row ['about'];   
+                        ?>            
+                          <tr>
+                            <td><?php echo $user_id;?></td>
+                            <td><?php echo $fname;?></td>
+                            <td><?php echo $lname;?></td>
+                            <td><?php echo $uemail;?></td> 
+                            <td><?php echo $uname;?></td> 
+                            <td><?php echo $about;?></td> 
+
+                            <td><a href="delete_admin.php?del_user=<?php echo $user_id;?>">Delete</a></td>
+                            <td><a href="edit_admin.php?edit_user=<?php echo $user_id;?>">Edit</a></td>
+                          </tr>
+                        <?php endwhile;?>   
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+
+<?php include("includes/footer.php");?>
+
+
+
