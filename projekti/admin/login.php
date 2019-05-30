@@ -38,3 +38,13 @@ include('includes/connection.php');
                                 </div>
 
                                 <div class="input-group">
+                                           <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                    <input id="password" type="password" class="form-control" name="password" placeholder="Password" required>
+                                </div>                                                                                             <input id="hidden" type="hidden" class="form-control" name="hidden">
+
+                                <div class="form-group">
+                                    <!-- Button -->
+                                    <div class="col-sm-12 controls">
+                                        <input type="submit" value="Log In" class="btn btn-primary pull-right" name="login"/>                         
+                                    </div>
+                                </div>
