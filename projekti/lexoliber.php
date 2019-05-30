@@ -167,6 +167,19 @@ function function1(){
 </div>
 
 </br> </br> </br> </br> </br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img href= "" src="images/TheHoundoftheBaskervilles.png" width="220" height="277" alt="TheHoundoftheBaskervilles">
+<cite><span style="color:orange; font-weight:bold;"><a style="text-decoration:none" href="https://www.planetebook.com/free-ebooks/the-hound-of-the-baskervilles.pdf">The Hound of the Baskervilles</a></span></cite>  
+
+<img src="images/PrideandPrejudice.png" width="220" height="277" alt="PrideandPrejudice">
+<cite><span style="color:orange; font-weight:bold;"><a style="text-decoration:none" href="https://www.planetebook.com/free-ebooks/pride-and-prejudice.pdf">Pride and Prejudice</a></span></cite> 
+
+<img src="images/OliverTwist.png" width="220" height="277" alt="OliverTwist">
+<cite><span style="color:orange; font-weight:bold;"><a style="text-decoration:none" href="https://www.planetebook.com/free-ebooks/oliver-twist.pdf">Oliver Twist</a></span></cite> </br> </br></br> </br>
+
+
 <?php include ('footer.php'); ?>
 
 </body>
