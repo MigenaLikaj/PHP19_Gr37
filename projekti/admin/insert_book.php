@@ -53,3 +53,13 @@ $price = $_POST['price'];
         exit();
     }
     else{
+        $insert_post = "insert into books (name,description,category,price) values ('$name','$description','$category','$price')";
+    $run_query = mysqli_query($con,$insert_post);
+        if($run_query){
+            echo "<script>alert('Book Published Successfully!!')</script>";
+            echo "<script>window.open('books.php','_self');</script>"; 
+        }
+    }
+}
+?> 
+<?php include("includes/footer.php");?>
