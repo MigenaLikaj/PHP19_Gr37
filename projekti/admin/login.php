@@ -50,7 +50,7 @@ include('includes/connection.php');
                                 </div>
                                 <p style="color:#fff;font-size:16px;">New Here? Sign Up <strong><a href="signup.php">Here</a></strong> </p>
                             </form>
-                            <p style="margin:20px 0;color:#222;text-align:center;font-size:18px;">Go back to the <strong><a href="index.php">Site</a></strong> </p>   
+                            <p style="margin:20px 0;color:#222;text-align:center;font-size:18px;">Go back to the <strong><a href="../homepage.php">HomePage</a></strong> </p>   
                         </div>
                     </div>
                 </div>
