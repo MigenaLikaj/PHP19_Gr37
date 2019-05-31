@@ -19,14 +19,16 @@
                         $user = "select * from users";
                             $run_user = mysqli_query($con,$user); 
                         while($user_row = mysqli_fetch_array($run_user)):
-                        $user_id = $user_row ['id'];   
+                        $user_id = $user_row ['id'];  
+                         $uname = $user_row ['username'];
                         $uemail = $user_row ['email'];   
-                        $uname = $user_row ['username']; 
+                        
                         ?>             
                           <tr>
                             <td><?php echo $user_id;?></td>
+                             <td><?php echo $uname;?></td> 
                             <td><?php echo $uemail;?></td> 
-                            <td><?php echo $uname;?></td> 
+                            
                           </tr>
                         <?php endwhile;?>   
                         </tbody>
