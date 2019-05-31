@@ -33,7 +33,7 @@
   	</div>
   	<p>
   		Craete an account  <a href="register.php">Sign up</a>
-      <p style="margin:20px ;color:#222;text-align:left;font-size:18px;">Go back to the <strong><a href="homepage.php">HomePage</a></strong> </p> 
+      <p >Go back to the <strong><a href="homepage.php">HomePage</a></strong> </p> 
   	</p>
   </form>
 </body>
