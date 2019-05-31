@@ -8,7 +8,7 @@ $sql = "CREATE TABLE `users` (
 $host='localhost';
 $username='root';
 $password='';
-$dbase='registration';
+$dbase='elearning';
 $conn = mysqli_connect($host,$username,$password,$dbase);
 if($conn){
     echo "Successfully connected to server";
