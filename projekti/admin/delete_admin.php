@@ -6,7 +6,7 @@
         
         $del_user = mysqli_query($con,$delete_user);  
       
-    echo "<script>alert('Instructor Deleted Successfully!!')</script>";
+    echo "<script>alert('Admin Deleted Successfully!!')</script>";
     echo "<script>window.open('admins.php','_self');</script>"; 
         
     };
