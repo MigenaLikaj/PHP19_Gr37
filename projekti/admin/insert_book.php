@@ -19,10 +19,12 @@
                             <label for="category">Book Category</label>
                             <select name="category" id="select_cat">
                             <option value="Select a category">Select a category</option>
-                                <option value="roman">Roman</option>
-                             <option value="poezi">Poezi</option>
-                             <option value="tregime">Tregime dhe Novela</option>
-                             <option value="proze">Proze</option>
+                                <option value="Roman">Roman</option>
+                             <option value="Poezi">Poezi</option>
+                             <option value="Tregime">Tregime dhe Novela</option>
+                             <option value="Proze">Proze</option>
+                              <option value="Drame">Drame</option>
+
                               </select>
                         </p> 
                          <p>
