@@ -1,0 +1,17 @@
+<pre>
+Libri: Pergjigje te shkurtra per pyetjet madhore
+Gjinia: Fizika
+Cmimi: 14 euro
+Autori: Stephen Hawking
+Detaje te librit: Botim i ri
+Shtepia Botuese: Minerva	
+Fletet: 268</pre>
+
+Ky eshte libri i fundit i Stephen Hawking, - gjeniut te rralle te kohes tone, i cili u nda nga jeta 
+vitin e kaluar: Gjitheperfshires, stimulues nga ana intelektuale, i argumentuar me pasion dhe 
+i mbushur me humorin e tij karakteristik, kjo mendje rralle jep pergjigje per pyetje te tilla si: 
+A ekziston zoti? Si filloi gjithcka? Ka forma te tjera te jetes inteligjente ne univers?  
+Mund ta parashikojme te ardhmen? Cfare ka brenda nje vrime te zeze? 
+Eshte i mundur udhetimi ne kohe?  Do te mbijetojme ne toke? Duhet ta kolonizojme hapesiren? 
+ Do te na tejkaloje inteligjenca artificiale? Si mund ta formesojme te ardhmen?
+
