@@ -52,7 +52,7 @@ echo "<pre style='text-align:center; font-size:20px'>
 	Lexo Online është platformë online për leximin e librave.
 Qëllimi i krijimit të një hapësire të tillë ështe mungesa e materialeve
 të mirëfillta për kulturën shqiptare dhe ndërkombëtare, përkatësisht.
-	Kjo bibliotekë, përveç librave, mundëson edhe leximin e lajmeve të
+	Kjo platforme, përveç librave, mundëson edhe leximin e lajmeve të
 fundit për kulturë,shkarkimin e libra shqip dhe anglisht, diskutimin
 e çështjeve në të mirë të publikut.
 Për çdo koment, kritikë, apo propozim, na kontaktoni!</pre>"
