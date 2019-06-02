@@ -1,6 +1,6 @@
 <?php
 session_start();
-$username = "root";
+$username = "";
 $email    = "";
 $errors = array();
 // connect to the database
