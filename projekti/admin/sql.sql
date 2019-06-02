@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `books` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
 INSERT INTO `books` (`id`, `name`, `description`, `category`, `price`) VALUES
-(1,'Sikur te isha djale, Haki Stermilli','Jeta ime për të tjerët, ndoshta nuk, nuk e vlen
- asnji dysh, por për mue ka rëndësi, se asht imja, se mund të përshkohet nëpër faza të
- ndryshme interesante dhe dikur, tue i këndue në këto fletë gëzimet ose hidhërimet e mia, 
- do të kënaqem ose do të pezmatohem.','Roman','15');
+(1,'Sikur te isha djale, Haki Stermilli','Jeta ime per te tjeret, ndoshta nuk, nuk e vlen
+ asnji dysh, por per mue ka rendesi, se asht imja, se mund te pershkohet neper faza te
+ ndryshme interesante dhe dikur, tue i kendue ne keto flete gezimet ose hidherimet e mia, 
+ do te kenaqem ose do te pezmatohem.','Roman','15');
