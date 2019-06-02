@@ -57,6 +57,15 @@ if (isset($_POST['login_user'])) {
 
     $user=mysqli_fetch_array($results);
 	  
+	  if(mysqli_num_rows( $results ) > 0 ){
+        $_SESSION['user_name'] = $user; 
+        echo "<script>window.open('index.php','_self');</script>"; 
+ 
+    }
+    else{
+        echo "<script>alert('Username Or Password is incorrect !!!');</script>";
+    }
+	  
 	  if($user){
     if(!empty($_POST["remember"])) {
   setcookie ("username",$_POST["username"],time()+ 365*10*24*60*60);
