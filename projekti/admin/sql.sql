@@ -1,3 +1,16 @@
+--
+-- Host: 127.0.0.1    Database: elearning
+-- ------------------------------------------------------
+-- Server version       5.1.51-debug-log
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
 -- Database: `elearning`
 --
 -- Table structure for table `admins`
@@ -50,3 +63,8 @@ INSERT INTO `books` (`id`, `name`, `description`, `category`, `price`) VALUES
  asnji dysh, por per mue ka rendesi, se asht imja, se mund te pershkohet neper faza te
  ndryshme interesante dhe dikur, tue i kendue ne keto flete gezimet ose hidherimet e mia, 
  do te kenaqem ose do te pezmatohem.','Roman','15');
+ 
+ 
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
